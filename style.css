@@ -1,0 +1,113 @@
+/* use font to style the website*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: plum;
+    padding: 10px;
+    margin: 10px;
+}
+
+a h1 {
+    color: khaki;
+    background-color: darkmagenta;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: goldenrod;
+    background-color: gainsboro;
+    text-align: center;
+
+}
+
+.Navlink {
+
+    text-align: left;
+    text-decoration: none;
+}
+
+.home {
+    position: absolute;
+    color: #3af321;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px
+}
+
+.icons {
+    color: royalblue;
+    margin: 15px;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.Form_container {
+    border: 2px solid salmon;
+    width: 40%;
+    background-color: crimson;
+    margin: auto;
+}
+
+.Form_field {
+    padding: 40px;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 9px 0;
+    border: 1px solid teal;
+    background-color: bisque;
+    color: rgb(34, 12, 12);
+}
+
+.message {
+    background-color: beige;
+    color: #000;
+}
+
+.Comment {
+    padding: 5px 0;
+}
+
+.btn {
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: darkmagenta;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+img {
+    border-radius: 50%;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.contacts {
+    text-align: center;
+    color: darkorange;
+    background-color: chartreuse;
+}
+
+p {
+    background-color: chartreuse;
+    text-align: justify;
+}
