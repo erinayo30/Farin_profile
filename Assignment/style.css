@@ -1,0 +1,174 @@
+/* use font to style the website*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17, 16, 17);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 a {
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(97, 138, 173);
+
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.header-section {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    padding: 20px 10px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Courier New";
+}
+
+.my_portfolio {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+}
+
+.Navlink a {
+    font-size: 20px;
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.Navlink a:hover,
+.Navlink a.active {
+
+    color: burlywood;
+}
+
+.nav {
+    align-items: center;
+}
+
+.homepage {
+    display: flex;
+    align-items: center;
+    background: url('FJA.jpg') no-repeat;
+    background: cover;
+    background-position: right;
+    border-radius: 50%;
+    height: 100vh;
+    padding: 0 20px;
+    padding-bottom: 40px;
+}
+
+.homepage-content {
+    max-width: 600px;
+}
+
+.homepage-content h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.homepage-content p {
+    font-size: 15px;
+    margin: 20px 0 40px;
+}
+
+.Contact-info {
+    align-items: center;
+    padding: 10px;
+}
+
+
+.Form_container {
+    border: 2px solid salmon;
+    width: 40%;
+    background-color: crimson;
+    margin: auto;
+    padding: 40px;
+}
+
+.Form_field {
+    padding: 40px;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 9px 0;
+    border: 1px solid teal;
+    background-color: bisque;
+    color: rgb(34, 12, 12);
+    align-items: center;
+}
+
+.message {
+    background-color: beige;
+    color: #000;
+    align-items: center;
+}
+
+.Comment {
+    padding: 5px 0;
+    align-items: center;
+}
+
+.btn {
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: darkmagenta;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+img {
+    border-radius: 50%;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.contacts {
+    text-align: center;
+    color: darkorange;
+    background-color: wheat;
+    display: inline;
+}
+
+.gallary {
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    background-color: burlywood;
+}
