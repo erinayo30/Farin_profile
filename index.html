@@ -5,94 +5,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="icon" href="images (8).jpg">
+    <title>Farinmade | Portfolio </title>
+    <link rel="icon" href="me.jpg">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/349ccceb36.js" crossorigin="anonymous"></script>
 </head>
+<!--header section-->
+<header class="header">
+    <a href="#" class="logo"> Farinmade</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <!--Navbar-->
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#gallary">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
 <body>
-    <!--
-    A portfolio website
-    (information needed
-    multiple sections containing
-    1. About
-    2.contact
-    3. skill section)
--->
-    <header>
-        <section class="header-section">
-            <div class="my_portfolio">
-                <h1> Farinmade</h1>
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi Everyone I am</h3>
+            <h1> Farinmade Joshua</h1>
+            <h3> And I'm a <span>Tech enthustiast who is currently learning frontend development and looking foward to
+                    venturing
+                    into
+                    cybersecurity in the nearest future</span></h3>
+            <div class="social-media">
+                <a href="https://web.facebook.com/profile.php?id=100076189837752"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/farinmade-joshua-056a48243/"><i
+                        class="fa-brands fa-linkedin"></i></i></a>
+
+                <i class="fa-brands fa-whatsapp">08166880570</i>
             </div>
-            <nav class="Navlink">
-                <a href="#" id="Active-Link"><i class="fa-solid fa-house home">Homepage</i></a>
-                <div class="icons">
-                    <a href="#About-me" class="nav-link"><i class="fa-solid fa-user">About Me</i></a>
-                    <a href="#Gallery" class="nav-link"><i class="fa-solid fa-image">Gallery</i></a>
-                    <a href="#Contact" class="nav-link"><i class="fa-solid fa-phone">Contact</i></a>
-                    <a href="#comments" class="nav-link"><i class="fa-solid fa-comment">Comment Section</i></a>
-                </div>
-            </nav>
-        </section>
-    </header>
-    <br>
-    <section class="about-me">
-        <h2><a href="#About-me" class="nav-link"><i class="fa-solid fa-user"></i>About Me</a></h2>
-        <img src="FJA.jpg" alt="Farinmade Joshua A">
-        <p>
-            I am a loving and gentle person who is willing and always ready to contribute positively to humanity through
-            working
-            with like-minded individuals. I am a graduate of Adekunle Ajasin University Akungba Akoko from the
-            department of History
-            and International Studies. As someone who is always ready to contribute to humanity I have served in
-            different
-            organizations. For instance I once serve as the president National Association of Oyin Students in the year
-            2021. During
-            this period I together with my team organized programs that have positive impacts on the life of both the
-            old and young
-            in the community, during this time there was the first of it kind medical outreach organized by the student
-            union
-            body,there was also skill acquisition program for the students in the community.
-        </p>
-    </section>
-    <section class="contacts">
-        <h2><a href="#Contact" class="nav-link"><i class="fa-solid fa-phone">Contact</i></a></h2>
-        <div class="my-info">
-            <i class="fa-brands fa-facebook"> Farinmade Joshua</i><br>
-            <i class="fa-brands fa-twitter">@FarinmadeJoshua</i><br>
-            <i class="fa-brands fa-instagram">Farinmade Joshua</i><br>
-            <i class="fa-solid fa-phone">08166880570</i><br>
-            <i class="fa-brands fa-whatsapp">08166880570</i>
+            <br>
+            <a href="#" class="btn"> Download CV</a>
+        </div>
+        <div class="home-img">
+            <img class="home-img" src="FJA.jpg" alt="Farinmade">
         </div>
     </section>
-    <section class="gallary">
-        <h2><a href="#Gallery" class="nav-link"><i class="fa-solid fa-image">Gallery</i></a></h2>
-        <img src="me.jpg" alt="Farinmade">
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="me.jpg" alt=" Josh">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I am a loving and gentle person who is willing and always ready to contribute positively to humanity
+                through
+                working
+                with like-minded individuals. I am a graduate of Adekunle Ajasin University Akungba Akoko from the
+                department of History
+                and International Studies. As someone who is always ready to contribute to humanity I have served in
+                different
+                organizations. For instance I once serve as the president National Association of Oyin Students in the
+                year
+                2021. During
+                this period I together with my team organized programs that have positive impacts on the life of both
+                the
+                old and young
+                in the community, during this time there was the first of it kind medical outreach organized by the
+                student
+                union
+                body,there was also skill acquisition program for the students in the community.
+                <br>
+                I am a Tech entustiast who is currently learning frontend development and looking foward to venturing
+                into
+                cybersecurity.
+            </p>
+        </div>
     </section>
-    <section class="Comment">
-        <h2><a href="#comments" class="nav-link"><i class="fa-solid fa-comment">Comment Section</i></a></h2>
-        <form action="Contacts-details">
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>I am knowledge html and can help in building your website using html</p>
+            </div>
+            <div class="skills-box">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>I am knowledge css and can help in building your website using css</p>
+            </div>
+            <div class="skills-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Javascript</h3>
+                <p>I have just begin my javascript journey but I promise to do a good job </p>
+            </div>
+            <div class="skills-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Data Analyst</h3>
+                <p>I can also help is your data organization for easy understanding I promise to do a good job </p>
+            </div>
+        </div>
+    </section>
+    <section class="gallary" id="gallary">
+        <h2 class="heading">Gallery</h2>
+        <div class="gallary-container">
+            <div class="gallary-box">
+                <img src="happy.jpg" alt="">
+                <div class="gallary-layer">
+                    <p>Am Farinmade Joshua </p>
+                </div>
+            </div>
+            <div class="gallary-box">
+                <img src="1.jpg" alt="">
+                <div class="gallary-layer">
+                    <p>A work done using css flex box</p>
+                </div>
+            </div>
+            <div class="gallary-box">
+                <img src="2.jpg" alt="">
+                <div class="gallary-layer">
+                    <p>A work done using css grid</p>
+                </div>
+            </div>
+            <div class="gallary-box">
+                <img src="5.jpg" alt="">
+                <div class="gallary-layer">
+                    <p>Example of a registration form</p>
+                </div>
+            </div>
+            <div class="gallary-box">
+                <img src="3.jpg" alt="">
+                <div class="gallary-layer">
+                    <p>A work done using html table</p>
+                </div>
+            </div>
+            <div class="gallary-box">
+                <img src="4.jpg" alt="">
+                <div class="gallary-layer">
+                    <p>A school score sheet </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
             <form id="Contact-info">
-                <label for="firstName">First Name</label> <br>
-                <input type="text" id="firstName" placeholder="first name"><br>
-                <label for="lastName">Last Name</label><br>
-                <input type="text" id="lastname" placeholder="last name"><br>
-                <label for="middleName">Middle Name</label><br>
-                <input type="text" id="middleName" placeholder="Middle name"><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" placeholder="email"><br>
-                <label for="date">Today's Date</label><br>
-                <input type="date" name="date" id="today">
-                <br>
-                <br>
-                <textarea id="Message" placeholder=" Your Message here"></textarea>
+                <div class="input-box">
+                    <label for="firstName">First Name</label> <br>
+                    <input type="text" id="firstName" placeholder="first name"><br>
+                </div>
+                <div class="input-box">
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" id="lastname" placeholder="last name"><br>
+                </div>
+                <div class="input-box">
+                    <label for="middleName">Middle Name</label><br>
+                    <input type="text" id="middleName" placeholder="Middle name"><br>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="email"><br>
+                </div>
+                <div class="input-box">
+                    <input type="number" id="number" placeholder="phone no"><br>
+                    <input type="text" placeholder="Email subject">
+                </div>
+
+
+                <textarea name="Message" cols="30" rows="10" placeholder=" Your Message here"></textarea>
+
                 <br>
                 <br>
                 <button type="submit" class="btn">Submit</button>
             </form>
-
     </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Farinmade</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"></a>
+        </div>
+    </footer>
+
 
 </body>
 
